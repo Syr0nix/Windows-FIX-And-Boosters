@@ -1,5 +1,5 @@
 @echo off
-netsh int tcp set global autotuninglevel=normal
+netsh interface tcp set global autotuning=high
 netsh int ipv4 set subinterface "Ethernet" mtu=1500 store=persistent
 netsh int ipv6 set subinterface "Ethernet" mtu=1500 store=persistent
 netsh int ipv4 set subinterface "Wi-Fi" mtu=1500 store=persistent
