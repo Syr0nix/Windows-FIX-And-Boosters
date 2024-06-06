@@ -2,4 +2,4 @@
 
 2.) Wifi booster allows  more packet flow and up your QOS on windows.
 
-3.) make sure you pick the right wifi booster for your motherboard can support or it may effect your pc in game play.
+3.) all programs need to be run as "ADMIN"
