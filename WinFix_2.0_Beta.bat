@@ -9,7 +9,7 @@ set /p userinp=Choice:
 set userinp=%userinp:~0,1%
 if /I "%userinp%" EQU "Y" goto :start
 echo Exiting script...
-exit /b
+
 
 :start
 setlocal enabledelayedexpansion
