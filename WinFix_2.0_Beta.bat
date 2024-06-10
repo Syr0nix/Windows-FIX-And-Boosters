@@ -2,7 +2,8 @@
 color 0A
 title WinFix script
 
-echo This script was made by Syr0nix. https://github.com/Syr0nix
+echo This script was made by https://github.com/Syr0nix                                           
+
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
 set /p userinp=Choice: 
@@ -106,8 +107,6 @@ timeout 5
 echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
-
+pause Press any key to close this program...
 echo Cleaning Prefetch files - procedure 8 of 8
 del /q/f/s %WINDIR%\Prefetch\*.*
-
-pause Press any key to close this program...
