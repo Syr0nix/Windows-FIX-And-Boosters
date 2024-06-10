@@ -3,6 +3,19 @@ color 0A
 title WinFix script
 
 echo This script was made by 
+#    ______                        ______             __                 
+#   /      \                      /      \           /  |                
+#  /$$$$$$  | __    __   ______  /$$$$$$  | _______  $$/  __    __       
+#  $$ \__$$/ /  |  /  | /      \ $$$  \$$ |/       \ /  |/  \  /  |      
+#  $$      \ $$ |  $$ |/$$$$$$  |$$$$  $$ |$$$$$$$  |$$ |$$  \/$$/       
+#   $$$$$$  |$$ |  $$ |$$ |  $$/ $$ $$ $$ |$$ |  $$ |$$ | $$  $$<        
+#  /  \__$$ |$$ \__$$ |$$ |      $$ \$$$$ |$$ |  $$ |$$ | /$$$$  \       
+#  $$    $$/ $$    $$ |$$ |      $$   $$$/ $$ |  $$ |$$ |/$$/ $$  |      
+#   $$$$$$/   $$$$$$$ |$$/        $$$$$$/  $$/   $$/ $$/ $$/   $$/       
+#            /  \__$$ |                                                  
+#            $$    $$/                                                   
+#             $$$$$$/                                                    
+
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
 set /p userinp=Choice: 
@@ -107,6 +120,8 @@ echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
 
+echo Updating System and Drivers - procedure 8 of 9
+winget upgrade --all
 
 echo Cleaning Prefetch files - procedure 9 of 9
 del /q/f/s %WINDIR%\Prefetch\*.*
