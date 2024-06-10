@@ -107,6 +107,6 @@ timeout 5
 echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
-pause Press any key to close this program...
 echo Cleaning Prefetch files - procedure 8 of 8
 del /q/f/s %WINDIR%\Prefetch\*.*
+pause Press any key to close this program...
