@@ -3,13 +3,12 @@ color 0A
 title WinFix script
 
 echo This script was made by 
-echo  __             ___        _       
-echo / _\_   _ _ __ / _ \ _ __ (_)_  __ 
-echo \ \| | | | '__| | | | '_ \| \ \/ / 
-echo _\ \ |_| | |  | |_| | | | | |>  <  
-echo \__/\__, |_|   \___/|_| |_|_/_/\_\ 
-echo     |___/                          
-
+ __             ___        _       
+/ _\_   _ _ __ / _ \ _ __ (_)_  __ 
+\ \| | | | '__| | | | '_ \| \ \/ / 
+_\ \ |_| | |  | |_| | | | | |>  <  
+\__/\__, |_|   \___/|_| |_|_/_/\_\ 
+    |___/                          
 
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
