@@ -3,18 +3,18 @@ color 0A
 title WinFix script
 
 echo This script was made by 
-#    ______                        ______             __                 
-#   /      \                      /      \           /  |                
-#  /$$$$$$  | __    __   ______  /$$$$$$  | _______  $$/  __    __       
-#  $$ \__$$/ /  |  /  | /      \ $$$  \$$ |/       \ /  |/  \  /  |      
-#  $$      \ $$ |  $$ |/$$$$$$  |$$$$  $$ |$$$$$$$  |$$ |$$  \/$$/       
-#   $$$$$$  |$$ |  $$ |$$ |  $$/ $$ $$ $$ |$$ |  $$ |$$ | $$  $$<        
-#  /  \__$$ |$$ \__$$ |$$ |      $$ \$$$$ |$$ |  $$ |$$ | /$$$$  \       
-#  $$    $$/ $$    $$ |$$ |      $$   $$$/ $$ |  $$ |$$ |/$$/ $$  |      
-#   $$$$$$/   $$$$$$$ |$$/        $$$$$$/  $$/   $$/ $$/ $$/   $$/       
-#            /  \__$$ |                                                  
-#            $$    $$/                                                   
-#             $$$$$$/                                                    
+echo    ______                        ______             __                 
+echo   /      \                      /      \           /  |                
+echo  /$$$$$$  | __    __   ______  /$$$$$$  | _______  $$/  __    __       
+echo  $$ \__$$/ /  |  /  | /      \ $$$  \$$ |/       \ /  |/  \  /  |      
+echo  $$      \ $$ |  $$ |/$$$$$$  |$$$$  $$ |$$$$$$$  |$$ |$$  \/$$/       
+echo   $$$$$$  |$$ |  $$ |$$ |  $$/ $$ $$ $$ |$$ |  $$ |$$ | $$  $$<        
+echo  /  \__$$ |$$ \__$$ |$$ |      $$ \$$$$ |$$ |  $$ |$$ | /$$$$  \       
+echo  $$    $$/ $$    $$ |$$ |      $$   $$$/ $$ |  $$ |$$ |/$$/ $$  |      
+echo   $$$$$$/   $$$$$$$ |$$/        $$$$$$/  $$/   $$/ $$/ $$/   $$/       
+echo            /  \__$$ |                                                  
+echo            $$    $$/                                                   
+echo             $$$$$$/                                                    
 
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
@@ -27,7 +27,7 @@ exit /b
 :start
 setlocal enabledelayedexpansion
 for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
-    echo Checking drive %%i: - procedure 1 of 11
+    echo Checking drive %%i: - procedure 1 of 9
     if exist %%i:\ (
         echo Drive %%i: is available, running CHKDSK now...
         chkdsk %%i: /scan
@@ -127,4 +127,4 @@ echo Cleaning Prefetch files - procedure 9 of 9
 del /q/f/s %WINDIR%\Prefetch\*.*
 
 echo Press any key to close this program...
-pause >null
+pause >nul
