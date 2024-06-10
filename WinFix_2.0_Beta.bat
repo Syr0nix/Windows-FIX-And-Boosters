@@ -107,8 +107,6 @@ echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
 
-echo Updating System and Drivers - procedure 8 of 9
-winget upgrade --all
 
 echo Cleaning Prefetch files - procedure 9 of 9
 del /q/f/s %WINDIR%\Prefetch\*.*
