@@ -2,7 +2,15 @@
 color 0A
 title WinFix script
 
-echo This script was made by Syr0nix.
+echo This script was made by 
+ __             ___        _       
+/ _\_   _ _ __ / _ \ _ __ (_)_  __ 
+\ \| | | | '__| | | | '_ \| \ \/ / 
+_\ \ |_| | |  | |_| | | | | |>  <  
+\__/\__, |_|   \___/|_| |_|_/_/\_\ 
+    |___/                          
+
+
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
 set /p userinp=Choice: 
@@ -29,26 +37,26 @@ for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 )
 endlocal
 
-echo Cleaning Temp and Tmp folders - procedure 2 of 11
+echo Cleaning Temp and Tmp folders - procedure 2 of 9
 DEL /F /S /Q %Temp%\*.*
 DEL /F /S /Q %Tmp%\*.*
 rd %temp% /s /q
 del /q/f/s %TEMP%*
 
-echo Windows component files check - procedure 3 of 11
+echo Windows component files check - procedure 3 of 9
 Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 Dism.exe /online /Cleanup-Image /SPSuperseded
 
-echo Checking the integrity of the Windows image - procedure 4 of 10
+echo Checking the integrity of the Windows image - procedure 4 of 9
 DISM /Online /Cleanup-Image /CheckHealth
 DISM /Online /Cleanup-Image /ScanHealth
 DISM /Online /Cleanup-Image /RestoreHealth
 
-echo Running System file check - procedure 5 of 11
+echo Running System file check - procedure 5 of 9
 sfc /scannow
 echo If SFC found some errors and could not repair, re-run the script after a reboot.
 
-echo Modifying network settings - procedure 6 of 11
+echo Modifying network settings - procedure 6 of 9
 
 echo This script is modifying some network settings.
 netsh interface tcp set global autotuning=high
@@ -96,7 +104,7 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "SackOp
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DefaultTTL" /t REG_DWORD /d "64" /f
 Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "NetworkThrottlingIndex" /t REG_SZ /d "ffffffff" /f
 echo.
-echo procedure 7 of 11
+echo procedure 7 of 9
 echo "Releasing the current IP address..." 
 ipconfig /release
 timeout 5
@@ -107,23 +115,11 @@ echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
 
-echo Cleaning Prefetch files - procedure 8 of 11
+echo Updating System and Drivers - procedure 8 of 9
+winget upgrade --all
+
+echo Cleaning Prefetch files - procedure 9 of 9
 del /q/f/s %WINDIR%\Prefetch\*.*
-
-echo Updating System and Drivers - procedure 9 of 11
-wuauclt.exe /updatenow
-
-echo Clearing Event Viewer Logs - procedure 10 of 11
-for /F "tokens=*" %%G in ('wevtutil.exe el') DO (call :do_clear "%%G")
-exit /b 
-
-:do_clear
-echo clearing %1
-wevtutil.exe cl %1
-goto :eof
-
-echo Emptying Recycle Bin - procedure 11 of 11
-rd /s /q %systemdrive%\$Recycle.bin
 
 echo Press any key to close this program...
 pause >null
