@@ -108,6 +108,5 @@ echo "Flushing the DNS resolver cache..."
 ipconfig /flushdns
 timeout 5
 echo Cleaning Prefetch files to speed up the Windows boot process - procedure 8 of 8
-timeout 5
 del /q/f/s %WINDIR%\Prefetch\*.*
 pause Press any key to close this program...
