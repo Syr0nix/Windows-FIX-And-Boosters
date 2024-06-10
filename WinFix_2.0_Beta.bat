@@ -4,19 +4,15 @@ title WinFix script
 
 echo This script was made by 
 
-echo    ______                        ______             __                 
-echo   /      \\                      /      \\           /  |                
-echo  /$$$$$$  | __    __   ______  /$$$$$$  | _______  $$\\  __    __       
-echo  $$ \\__$$/ /  |  /  | /      \\ $$$  \\$$ |/       \\ /  |/  \\  /  |      
-echo  $$      \\ $$ |  $$ |/$$$$$$  |$$$$  $$ |$$$$$$$  |$$ |$$  \\/$$/       
-echo   $$$$$$  |$$ |  $$ |$$ |  $$\\ $$ $$ $$ |$$ |  $$ |$$ | $$  $$<        
-echo  /  \\__$$ |$$ \\__$$ |$$ |      $$ \\$$$$ |$$ |  $$ |$$ | /$$$$  \\       
-echo  $$    $$/ $$    $$ |$$ |      $$   $$$/ $$ |  $$ |$$ |/$$/ $$  |      
-echo   $$$$$$/   $$$$$$$ |$$/        $$$$$$/  $$//   $$// $$// $$//   $$//       
-echo            /  \\__$$ |                                                  
-echo            $$    $$//                                                   
-echo             $$$$$$//
-                                      
+echo  _____             ___        _      
+echo / ____|           / _ \      (_)     
+echo| (___  _   _ _ __| | | |_ __  ___  __
+echo \___ \| | | | '__| | | | '_ \| \ \/ /
+echo ____) | |_| | |  | |_| | | | | |>  < 
+echo|_____/ \__, |_|   \___/|_| |_|_/_/\_\
+echo       __/ |                        
+echo      |___/                         
+
 
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
