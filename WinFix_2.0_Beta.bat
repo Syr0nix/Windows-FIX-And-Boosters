@@ -3,21 +3,6 @@ color 0A
 title WinFix script
 
 echo This script was made by 
-
-#    ______                        ______             __                 
-#   /      \                      /      \           /  |                
-#  /$$$$$$  | __    __   ______  /$$$$$$  | _______  $$/  __    __       
-#  $$ \__$$/ /  |  /  | /      \ $$$  \$$ |/       \ /  |/  \  /  |      
-#  $$      \ $$ |  $$ |/$$$$$$  |$$$$  $$ |$$$$$$$  |$$ |$$  \/$$/       
-#   $$$$$$  |$$ |  $$ |$$ |  $$/ $$ $$ $$ |$$ |  $$ |$$ | $$  $$<        
-#  /  \__$$ |$$ \__$$ |$$ |      $$ \$$$$ |$$ |  $$ |$$ | /$$$$  \       
-#  $$    $$/ $$    $$ |$$ |      $$   $$$/ $$ |  $$ |$$ |/$$/ $$  |      
-#   $$$$$$/   $$$$$$$ |$$/        $$$$$$/  $$/   $$/ $$/ $$/   $$/       
-#            /  \__$$ |                                                  
-#            $$    $$/                                                   
-#             $$$$$$/                                                    
-                        
-
 echo This script needs to be run as an administrator. It will attempt to fix common Windows issues And Speed up GamePlay.
 echo Are you sure you want to proceed? (Y/N)
 set /p userinp=Choice: 
