@@ -1,7 +1,7 @@
-Get the latest file in Releases Winfix :)
+Please download the latest file from the ‘Releases’ section of Winfix.
 
-1.) CLean temp Deletes "all" temp files.
+The ‘Clean Temp’ feature removes all temporary files.
 
-2.) Wifi booster allows  more packet flow and up your QOS on windows. this is built in to winfix files as well
+The ‘Wifi Booster’ enhances packet flow and improves Quality of Service (QoS) on Windows. This functionality is also included in Winfix files.
 
-3.) all programs need to be run as "ADMIN"
+Ensure that all programs are run with administrative privileges.
