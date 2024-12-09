@@ -79,5 +79,6 @@ Downloads and installs the 7-Zip compression utility.
 Install WinRAR
 
 Installs WinRAR for advanced file compression and extraction.
+____________________________________________________________________________________________________________________________________________________
 "Run All Procedures" Option
 The "Run All Procedures" mode executes a predefined set of optimizations, including system tweaks and disabling non-essential features, to maximize performance. This mode is particularly useful for gamers and users seeking the most efficient system setup.
