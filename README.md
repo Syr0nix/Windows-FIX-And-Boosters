@@ -1,68 +1,81 @@
-### Windows Optimization and Troubleshooting Script
+Windows Optimization and Troubleshooting Script
+This powerful batch script, developed by Syr0nix, is designed for comprehensive Windows optimization, particularly for gamers and power users. It simplifies troubleshooting common issues and includes various options for network, storage, and system performance enhancements. With administrative privileges, users can execute individual tasks or choose a "Run All" option for a complete system optimization.
 
-This comprehensive batch script, created by Syr0nix, is designed to enhance Windows performance, particularly for gaming, and assist with troubleshooting common system issues. It requires administrative privileges to execute fully and includes options for optimizing network, storage, and system settings. Users can select specific procedures or opt for a "Run All" mode for complete optimization. The script executes system commands, modifies registry entries, manages services, and initiates tasks to enhance system responsiveness and gaming experiences.
+Key Features and Procedures
+CHKDSK and Drive Optimization
 
----
+Executes CHKDSK and defragments drives to ensure efficient storage performance.
+Clean Temporary Folders
 
-### Key Features and Procedures
+Deletes unnecessary files from TEMP directories to reclaim disk space.
+Windows Component Cleanup
 
-1. **CHKDSK and Drive Optimization**  
-   - Executes CHKDSK with repair options and defragments the primary drive to enhance storage performance.
+Cleans system components using DISM to maintain a lean and stable environment.
+Windows Image Integrity Check
 
-2. **Clean Temporary Folders**  
-   - Deletes files in the TEMP directory, freeing up disk space and reducing clutter.
+Repairs system images to address potential corruption issues.
+System File Check (SFC)
 
-3. **Windows Component Cleanup**  
-   - Cleans and optimizes Windows components using DISM.
+Runs sfc /scannow to verify and restore critical system files.
+Network Settings Optimization
 
-4. **Windows Image Integrity Check**  
-   - Repairs system images via DISM to resolve potential file corruption.
+Tunes network configurations for enhanced connectivity and reduced latency.
+Set Power Plan to High Performance
 
-5. **System File Check (SFC)**  
-   - Runs `sfc /scannow` to verify and restore Windows system files.
+Adjusts power settings to prioritize system performance over energy savings.
+Clear Event Logs
 
-6. **Network Settings Optimization**  
-   - Adjusts TCP/IP auto-tuning settings to improve network performance.
+Deletes Windows Event Logs to free up resources.
+Adjust for Best Performance
 
-7. **Set Power Plan to High Performance**  
-   - Switches to the high-performance power plan, ideal for gaming or resource-intensive tasks.
+Disables visual effects to optimize the system for speed.
+Clear ARP Cache
 
-8. **Clear Event Logs**  
-   - Empties Windows Event Logs to reclaim system resources.
+Flushes the ARP cache to resolve networking issues.
+Release and Renew IP Address, Flush DNS Cache
 
-9. **Adjust for Best Performance**  
-    - Opens visual effects settings to optimize for maximum performance.
+Refreshes network settings to improve connectivity.
+Upgrade All Packages
 
-10. **Clear ARP Cache**  
-    - Removes the ARP cache to potentially fix network issues.
+Updates all installed applications using winget.
+Clean Prefetch Files
 
-11. **Release/Renew IP Address and Flush DNS**  
-    - Refreshes network IP and DNS cache to address connectivity problems.
+Clears the Prefetch folder to improve system responsiveness.
+Disable Unnecessary Startup Programs
 
-12. **Upgrade All Packages**  
-    - Uses `winget` to update installed applications.
+Helps manage startup applications to improve boot times.
+Disable Windows Visual Effects for Performance
 
-13. **Clean Prefetch Files**  
-    - Clears the Prefetch folder to improve startup times.
+Modifies system settings to disable resource-intensive visual effects.
+Enable Windows Visual Effects (Default)
 
-14. **Disable Unnecessary Startup Programs**  
-    - Opens Startup Apps settings for disabling auto-launch apps.
+Restores default visual effects for a balanced appearance.
+Disable Xbox Game Bar
 
-15. **Disable Windows Visual Effects**  
-    - Adjusts registry settings to disable visual effects for enhanced performance.
+Stops processes and disables Xbox Game Bar for improved performance.
+Enable Xbox Game Bar
 
-16. **Enable Windows Visual Effects (Default)**  
-    - Restores default visual effects for a traditional Windows appearance.
+Re-enables Xbox Game Bar and its related services.
+Clear RAM Cache
 
-17. **Disable Xbox Game Bar**  
-    - Stops Game Bar processes, disables tasks, and uninstalls it to save resources.
+Frees up memory resources by clearing the RAM cache.
+Winsock Reset
 
-18. **Enable Xbox Game Bar**  
-    - Re-enables the Xbox Game Bar and its associated features.
+Resets Winsock to fix potential network connectivity issues.
+Disable TCP Global Autotuning
 
----
+Modifies TCP settings to optimize data throughput for gaming or networking.
+Restart to BIOS
 
-### "Run All Procedures" Option  
-For maximum performance, especially for gaming, the "Run All Procedures" mode implements a predefined set of optimizations, including disabling Windows visual effects and the Xbox Game Bar, ensuring minimal system overhead and maximum resource availability.
+Facilitates easy access to BIOS settings for hardware configuration.
+Remove Windows Spyware
 
-This script is a versatile tool, offering flexible options for system maintenance and comprehensive tuning. Whether you’re a gamer or a power user, it simplifies system optimization to improve your Windows experience.
+Deletes known Windows telemetry files to enhance privacy.
+Install 7-Zip
+
+Downloads and installs the 7-Zip compression utility.
+Install WinRAR
+
+Installs WinRAR for advanced file compression and extraction.
+"Run All Procedures" Option
+The "Run All Procedures" mode executes a predefined set of optimizations, including system tweaks and disabling non-essential features, to maximize performance. This mode is particularly useful for gamers and users seeking the most efficient system setup.
