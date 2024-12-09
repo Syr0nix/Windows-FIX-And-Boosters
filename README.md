@@ -1,5 +1,7 @@
 Windows Optimization and Troubleshooting Script
 This powerful batch script, developed by Syr0nix, is designed for comprehensive Windows optimization, particularly for gamers and power users. It simplifies troubleshooting common issues and includes various options for network, storage, and system performance enhancements. With administrative privileges, users can execute individual tasks or choose a "Run All" option for a complete system optimization.
+____________________________________________________________________________________________________________________________________________________
+
 
 Key Features and Procedures
 CHKDSK and Drive Optimization
