@@ -1,84 +1,96 @@
-Windows Optimization and Troubleshooting Script
-This powerful batch script, developed by Syr0nix, is designed for comprehensive Windows optimization, particularly for gamers and power users. It simplifies troubleshooting common issues and includes various options for network, storage, and system performance enhancements. With administrative privileges, users can execute individual tasks or choose a "Run All" option for a complete system optimization.
-____________________________________________________________________________________________________________________________________________________
+Here is the updated description in a **copy-paste-friendly format**:
 
+---
 
-Key Features and Procedures
-CHKDSK and Drive Optimization
+### Windows Optimization and Troubleshooting Script
 
-Executes CHKDSK and defragments drives to ensure efficient storage performance.
-Clean Temporary Folders
+This powerful batch script, developed by **Syr0nix**, is designed for comprehensive Windows optimization, particularly for gamers and power users. It simplifies troubleshooting common issues and includes various options for network, storage, and system performance enhancements. With administrative privileges, users can execute individual tasks or choose a "Run All" option for a complete system optimization.
 
-Deletes unnecessary files from TEMP directories to reclaim disk space.
-Windows Component Cleanup
+---
 
-Cleans system components using DISM to maintain a lean and stable environment.
-Windows Image Integrity Check
+### Key Features and Procedures
 
-Repairs system images to address potential corruption issues.
-System File Check (SFC)
+1. **CHKDSK and Drive Optimization**  
+   Executes `CHKDSK` and defragments drives to ensure efficient storage performance.
 
-Runs sfc /scannow to verify and restore critical system files.
-Network Settings Optimization
+2. **Clean Temporary Folders**  
+   Deletes unnecessary files from TEMP directories to reclaim disk space.
 
-Tunes network configurations for enhanced connectivity and reduced latency.
-Set Power Plan to High Performance
+3. **Windows Component Cleanup**  
+   Cleans system components using `DISM` to maintain a lean and stable environment.
 
-Adjusts power settings to prioritize system performance over energy savings.
-Clear Event Logs
+4. **Windows Image Integrity Check**  
+   Repairs system images to address potential corruption issues.
 
-Deletes Windows Event Logs to free up resources.
-Adjust for Best Performance
+5. **System File Check (SFC)**  
+   Runs `sfc /scannow` to verify and restore critical system files.
 
-Disables visual effects to optimize the system for speed.
-Clear ARP Cache
+6. **Network Settings Optimization**  
+   Tunes network configurations for enhanced connectivity and reduced latency.
 
-Flushes the ARP cache to resolve networking issues.
-Release and Renew IP Address, Flush DNS Cache
+7. **Set Power Plan to High Performance**  
+   Adjusts power settings to prioritize system performance over energy savings.
 
-Refreshes network settings to improve connectivity.
-Upgrade All Packages
+8. **Clear Event Logs**  
+   Deletes Windows Event Logs to free up resources.
 
-Updates all installed applications using winget.
-Clean Prefetch Files
+9. **Adjust for Best Performance**  
+   Disables visual effects to optimize the system for speed.
 
-Clears the Prefetch folder to improve system responsiveness.
-Disable Unnecessary Startup Programs
+10. **Clear ARP Cache**  
+    Flushes the ARP cache to resolve networking issues.
 
-Helps manage startup applications to improve boot times.
-Disable Windows Visual Effects for Performance
+11. **Release and Renew IP Address, Flush DNS Cache**  
+    Refreshes network settings to improve connectivity.
 
-Modifies system settings to disable resource-intensive visual effects.
-Enable Windows Visual Effects (Default)
+12. **Upgrade All Packages**  
+    Updates all installed applications using `winget`.
 
-Restores default visual effects for a balanced appearance.
-Disable Xbox Game Bar
+13. **Clean Prefetch Files**  
+    Clears the Prefetch folder to improve system responsiveness.
 
-Stops processes and disables Xbox Game Bar for improved performance.
-Enable Xbox Game Bar
+14. **Disable Unnecessary Startup Programs**  
+    Helps manage startup applications to improve boot times.
 
-Re-enables Xbox Game Bar and its related services.
-Clear RAM Cache
+15. **Disable Windows Visual Effects for Performance**  
+    Modifies system settings to disable resource-intensive visual effects.
 
-Frees up memory resources by clearing the RAM cache.
-Winsock Reset
+16. **Enable Windows Visual Effects (Default)**  
+    Restores default visual effects for a balanced appearance.
 
-Resets Winsock to fix potential network connectivity issues.
-Disable TCP Global Autotuning
+17. **Disable Xbox Game Bar**  
+    Stops processes and disables Xbox Game Bar for improved performance.
 
-Modifies TCP settings to optimize data throughput for gaming or networking.
-Restart to BIOS
+18. **Enable Xbox Game Bar**  
+    Re-enables Xbox Game Bar and its related services.
 
-Facilitates easy access to BIOS settings for hardware configuration.
-Remove Windows Spyware
+19. **Clear RAM Cache**  
+    Frees up memory resources by clearing the RAM cache.
 
-Deletes known Windows telemetry files to enhance privacy.
-Install 7-Zip
+20. **Winsock Reset**  
+    Resets Winsock to fix potential network connectivity issues.
 
-Downloads and installs the 7-Zip compression utility.
-Install WinRAR
+21. **Disable TCP Global Autotuning**  
+    Modifies TCP settings to optimize data throughput for gaming or networking.
 
-Installs WinRAR for advanced file compression and extraction.
-____________________________________________________________________________________________________________________________________________________
-"Run All Procedures" Option
+22. **Restart to BIOS**  
+    Facilitates easy access to BIOS settings for hardware configuration.
+
+23. **Remove Windows Spyware**  
+    Deletes known Windows telemetry files to enhance privacy.
+
+24. **Install 7-Zip**  
+    Downloads and installs the 7-Zip compression utility.
+
+25. **Install WinRAR**  
+    Installs WinRAR for advanced file compression and extraction.
+
+---
+
+### "Run All Procedures" Option  
+
 The "Run All Procedures" mode executes a predefined set of optimizations, including system tweaks and disabling non-essential features, to maximize performance. This mode is particularly useful for gamers and users seeking the most efficient system setup.
+
+---
+
+This comprehensive script is a one-stop solution for Windows optimization and troubleshooting. Whether you're resolving issues or enhancing gaming performance, it simplifies the process while delivering robust results.
